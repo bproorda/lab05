@@ -652,7 +652,7 @@ blockquote, q {
 
 /* Narrow */
 
-	@media screen and (min-width: 961px) and (max-width: 1320px) {
+	@media screen and (min-width: 400px) and (max-width: 1320px) {
 
 		/* Basic */
 
