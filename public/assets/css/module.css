@@ -330,8 +330,12 @@ blockquote, q {
 		justify-content: space-between;
         /* background: #222629 url("images/overlay.png"); */
         /* background-color: rgb(139, 32, 139); */
-        background-image: url("https://cdn.pixabay.com/photo/2016/02/01/04/27/background-1172581_1280.jpg");
-		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
+		background-image: url("https://cdn.pixabay.com/photo/2016/02/01/04/27/background-1172581_1280.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1); */
+		border-right: 2px solid black;
+		box-shadow: 20px 20px 20px black;
 		color: black;
 		height: 100%;
 		left: 0;
@@ -339,7 +343,8 @@ blockquote, q {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 375px;
+		width: 20%;
+
 	}
 
 		#header .top {
@@ -462,12 +467,23 @@ blockquote, q {
 					}
 
                     .row img {
-                        border-bottom: 2px solid black;
-                    }
+						border-bottom: 2px solid black;
+						border-radius: 15px 15px 0 0;
+						
+					}
+					
                     .row article {
-                        border: 2px solid black;
-                        box-shadow: 5px 5px;
-                    }
+						border: 2px solid black;
+						border-radius: 15px;
+						box-shadow: 10px 10px 10px black;
+						/* width: 80%; */
+						overflow: hidden;
+					}
+					.row header {
+						border-radius: 0 0 15px 15px;
+						/* height: 100%; */
+						display: none;
+					}
 /* Footer */
 
 	#footer {
@@ -543,21 +559,50 @@ blockquote, q {
 			}
 
 			#main > section.one {
-				/* background-color: darkblue; */
-				background-image: url("https://pixnio.com/free-images/2018/08/28/2018-08-28-18-21-43-1200x800.jpg");
+				background-color: lightblue;
+				/* background-image: url("https://pixnio.com/free-images/2018/08/28/2018-08-28-18-21-43-1200x800.jpg"); */
+				border-bottom: 2px solid black;
+				animation: animate 20s ease infinite;
+				background-size: auto;
+				background-repeat: no-repeat;
+				color: black;
+			}
+			@keyframes animate{
+				0%{
+					background-image: url(../../images/aboutMe.png);
+				}
+				50%{
+					background-image: url(../../images/salmoncookie.png);
+				}
+				100%{
+					background-image: url(../../images/methodit.png);
+				}
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				/* background-color: #f5fafa; */
+				background-image: url("images/stars1.jpg");
+				background-repeat: no-repeat;
+				background-size: fill;
+				padding-bottom: 0;
+			;
+				
 			}
 
 			#main > section.three {
 				background-color: #ecf1f1;
+				background-image: url("images/stars1.jpg");
+				
 			}
 
 			#main > section.four {
 				background-color: #e8edec;
+				color: black
 			}
+			section.four h2 {
+				color: black;
+			}
+			
 
 /* Wide */
 

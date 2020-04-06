@@ -122,6 +122,7 @@ table {
     .row > .col-4 {
         width: 33.3333333333%;
     }
+   
 
     .row > .off-4 {
         margin-left: 33.3333333333%;
@@ -978,6 +979,7 @@ table {
             .row {
                 margin-top: -20px;
                 margin-left: -20px;
+             
             }
 
                 .row > * {

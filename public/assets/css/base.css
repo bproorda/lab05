@@ -49,7 +49,8 @@ footer, header, hgroup, menu, nav, section {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color:whitesmoke;
+		font-family: 'Comic Neue', cursive;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -73,7 +74,7 @@ footer, header, hgroup, menu, nav, section {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: whitesmoke;
 		line-height: 1.5em;
 	}
 
